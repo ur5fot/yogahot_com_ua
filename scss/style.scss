@@ -1,0 +1,178 @@
+@import "lib/_reset.scss"; 
+@import "lib/_mixin.scss"; 
+@import "lib/_colors_variables.scss";
+
+@import "_general.scss";
+
+*{
+    box-sizing: border-box;
+    transition: all .3s;
+    // overflow: hidden;
+}
+
+html{
+  font-size: 15px;
+}
+$img-w:  474 ;
+$img-h:   526 ;
+$sun-container-size: 460 + 83;
+$sun-p-size: (285 / $sun-container-size  * 100%); 
+$sun-container-height: $img-w / $img-h * 100%; 
+$sun-child-size: (83 /  ($sun-container-size)  * 100%) ; 
+// 460 + 83 
+
+.sun-global{
+  // max-height: 625px;
+  display: table;
+  margin: 0 auto;
+}
+
+.sun-main{
+  display: table;
+  // padding: 13% 5% 0% 14%;
+  // padding: 17% 6% 0% 18%;
+  padding: 19% 7% 0% 17%;
+  margin: 0 auto;
+  // max-width: 626px;
+}
+.sun{
+  // box-sizing: content-box;
+  max-width: $img-w * 1px;
+  max-height: $img-h *1px;
+  // max-width: 110%;
+  height: auto;
+  // max-height: $img-h *1px;
+  position: relative;
+  // margin: 10%;
+  // margin: $sun-child-size;
+  // background: rgba(#111, .5);
+
+  img{
+    width: 100%;
+    height: auto;
+  } 
+  p{
+    position: absolute;
+    z-index: 1;
+    border-radius: 50% ;
+  }
+  
+}
+
+.sun-child1 , .sun-child2 , .sun-child3 ,  .sun-child4, .sun-child5,  .sun-child6,  .sun-child7,  .sun-child8,  .sun-child9,  .sun-child10,  .sun-child11 {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50% ;   
+    height: $sun-child-size;
+    width: $sun-child-size;
+    background: #e58f34 center center no-repeat;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    &:hover{
+      background-color:  #d35b3a;
+    }
+  }
+  .sun-child-hover{
+    background-color:  #d35b3a;
+  }
+
+.sun-child-center{
+    display: none;
+    text-align: center;
+    height: $sun-p-size;
+    width:  $sun-p-size;
+    // top: 25%;
+    // left: 26%;
+    top: 28%;
+    left: 25%;
+    span{
+      display: block;
+      width: 100%;
+    }
+  }
+    .tooltipSun{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(#fff ,  .93);
+    }
+
+
+.sun-container{
+  position: absolute;
+  width: $sun-container-size  / $img-w * 100% ;
+  height: $sun-container-size  / $img-h * 100% ;
+  // background: rgba(#111, .5);
+  // top: -11% ;
+  // left:  -15%;
+  top: -14%;
+  left: -14%;
+}
+
+.sun-child1{
+  left: 77%  - $sun-child-size / 2;
+  bottom: 92%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-generat.png');
+}
+.sun-child2{
+  left: 95% - $sun-child-size / 2;
+  bottom: 71%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-tree.png');
+}
+.sun-child3{
+  left: 99% - $sun-child-size / 2;
+  bottom: 43%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-mat.png');
+}
+.sun-child4{
+  left: 88% - $sun-child-size / 2;
+  bottom: 17%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-medic.png');
+}
+.sun-child5{
+  left: 64% - $sun-child-size / 2;
+  bottom: 2%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-cup.png');
+}
+.sun-child6{
+  left: 36% - $sun-child-size / 2;
+  bottom: 2%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-tea.png');
+}
+.sun-child7{
+  left: 12% - $sun-child-size / 2;
+  bottom: 17%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-cabine.png');
+}
+.sun-child8{
+  left: 1% - $sun-child-size / 2;
+  bottom: 43%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-aic.png');
+}
+.sun-child9{
+  left: 5% - $sun-child-size / 2;
+  bottom: 71%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-key.png');
+}
+.sun-child10{
+  left: 23%  - $sun-child-size / 2;
+  bottom: 92%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-polot.png');
+}
+.sun-child11{
+  left: 50% - $sun-child-size / 2;
+  bottom: 100%  - $sun-child-size / 2;
+  background-image: url('../img/spr/sprite/san-didro.png');
+}
+
+
+
+
+
+
+ 
+
+ 
+
+
