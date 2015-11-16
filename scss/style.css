@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box;
+  transition: all .3s; }
+
+html {
+  font-size: 15px; }
+
+.sun-global {
+  display: table;
+  margin: 0 auto; }
+
+.sun-main {
+  display: table;
+  padding: 19% 7% 0% 17%;
+  margin: 0 auto; }
+
+.sun {
+  max-width: 474px;
+  max-height: 526px;
+  height: auto;
+  position: relative; }
+  .sun img {
+    width: 100%;
+    height: auto; }
+  .sun p {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%; }
+
+.sun-child1, .sun-child2, .sun-child3, .sun-child4, .sun-child5, .sun-child6, .sun-child7, .sun-child8, .sun-child9, .sun-child10, .sun-child11 {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  height: 15.28545%;
+  width: 15.28545%;
+  background: #e58f34 center center no-repeat;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer; }
+  .sun-child1:hover, .sun-child2:hover, .sun-child3:hover, .sun-child4:hover, .sun-child5:hover, .sun-child6:hover, .sun-child7:hover, .sun-child8:hover, .sun-child9:hover, .sun-child10:hover, .sun-child11:hover {
+    background-color: #d35b3a; }
+
+.sun-child-hover {
+  background-color: #d35b3a; }
+
+.sun-child-center {
+  display: none;
+  text-align: center;
+  height: 52.48619%;
+  width: 52.48619%;
+  top: 28%;
+  left: 25%; }
+  .sun-child-center span {
+    display: block;
+    width: 100%; }
+
+.tooltipSun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.93); }
+
+.sun-container {
+  position: absolute;
+  width: 114.55696%;
+  height: 103.23194%;
+  top: -14%;
+  left: -14%; }
+
+.sun-child1 {
+  left: 69.35727%;
+  bottom: 84.35727%;
+  background-image: url("../img/spr/sprite/san-generat.png"); }
+
+.sun-child2 {
+  left: 87.35727%;
+  bottom: 63.35727%;
+  background-image: url("../img/spr/sprite/san-tree.png"); }
+
+.sun-child3 {
+  left: 91.35727%;
+  bottom: 35.35727%;
+  background-image: url("../img/spr/sprite/san-mat.png"); }
+
+.sun-child4 {
+  left: 80.35727%;
+  bottom: 9.35727%;
+  background-image: url("../img/spr/sprite/san-medic.png"); }
+
+.sun-child5 {
+  left: 56.35727%;
+  bottom: -5.64273%;
+  background-image: url("../img/spr/sprite/san-cup.png"); }
+
+.sun-child6 {
+  left: 28.35727%;
+  bottom: -5.64273%;
+  background-image: url("../img/spr/sprite/san-tea.png"); }
+
+.sun-child7 {
+  left: 4.35727%;
+  bottom: 9.35727%;
+  background-image: url("../img/spr/sprite/san-cabine.png"); }
+
+.sun-child8 {
+  left: -6.64273%;
+  bottom: 35.35727%;
+  background-image: url("../img/spr/sprite/san-aic.png"); }
+
+.sun-child9 {
+  left: -2.64273%;
+  bottom: 63.35727%;
+  background-image: url("../img/spr/sprite/san-key.png"); }
+
+.sun-child10 {
+  left: 15.35727%;
+  bottom: 84.35727%;
+  background-image: url("../img/spr/sprite/san-polot.png"); }
+
+.sun-child11 {
+  left: 42.35727%;
+  bottom: 92.35727%;
+  background-image: url("../img/spr/sprite/san-didro.png"); }
+
+/*# sourceMappingURL=style.css.map */

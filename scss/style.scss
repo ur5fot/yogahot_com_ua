@@ -18,7 +18,7 @@ $img-h:   526 ;
 $sun-container-size: 460 + 83;
 $sun-p-size: (285 / $sun-container-size  * 100%); 
 $sun-container-height: $img-w / $img-h * 100%; 
-$sun-child-size: (83 /  ($sun-container-size)  * 100%) ; 
+$sun-child-size: (83 /  ($sun-container-size)  * 100%) ;
 // 460 + 83 
 
 .sun-global{
